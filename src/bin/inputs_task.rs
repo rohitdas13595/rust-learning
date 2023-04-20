@@ -15,7 +15,7 @@ fn main (){
             Ok(val)=> {
                 vector.push(val);
                 times+=1;
-            } ,
+            },
             Err(e)=> print!("Error: {:?}",e),
         }
     }
